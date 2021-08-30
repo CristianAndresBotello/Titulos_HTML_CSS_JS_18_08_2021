@@ -21,12 +21,26 @@ h2:nth-of-type(1), h4{
     box-shadow: 0.01em 0.01em 2em black;
 }
 
-h3:nth-of-type(1), h6 { 
+h3:nth-of-type(1){ 
     background-color: rgb(194, 194, 194);
     font-family: Oswald;
     padding: .5em;
-    color: gray;
+    color: #2a2626;
     box-shadow: 0.01em 0.01em 1em #691414;
     text-shadow: 2px  2px 3px white;
     border-radius: 0.5em;
+}
+
+h4{
+    font-family: century gothic;
+    text-align: right;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    background: dimgrey;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
 }
