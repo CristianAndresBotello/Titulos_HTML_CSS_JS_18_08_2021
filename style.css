@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@200;500&family=Patrick+Hand&display=swap');
+
+h1::selection, h2::selection, h3::selection,
+h4::selection, h5::selection, h6::selection{
+    background: #ff4500;
+}
+
+h1:nth-of-type(1), h5{ /* Funcion CSS para ir a un elemento especifico para aplicar el estilo */
+    background-color: darkseagreen;
+    font-family: Kaushan Script;
+    padding: .5em;
+    color: #ffffff;
+    box-shadow: 0.01em 0.01em 2em black;
+    text-shadow: 1px  1px 3px black;
+}
+h2:nth-of-type(1), h4{ 
+    background-color: indianred;
+    font-family: Patrick Hand;
+    padding: .5em;
+    color: #ffffff;
+    box-shadow: 0.01em 0.01em 2em black;
+}
+
+h3:nth-of-type(1), h6 { 
+    background-color: rgb(194, 194, 194);
+    font-family: Oswald;
+    padding: .5em;
+    color: gray;
+    box-shadow: 0.01em 0.01em 1em #691414;
+    text-shadow: 2px  2px 3px white;
+    border-radius: 0.5em;
+}
